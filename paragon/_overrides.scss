@@ -1,2 +1,14 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+// hide the social media section
+#social-media {
+    display: none;
+  }
+  
+  // hide the link to social media section in the account page
+  .jump-nav {
+    ul.list-unstyled li:nth-child(3){
+      display:none;
+    }
+  }
